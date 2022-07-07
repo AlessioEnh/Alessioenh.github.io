@@ -75,17 +75,5 @@ Burgerbtn.addEventListener('click', function() {
 	// 	$('a.menu-state').removeClass("active");
 	// 	$(this).addClass("active");
 	// });
+
 });
-
-// document.getElementById("MyElement").classList.add('MyClass');
-// document.getElementById("MyElement").classList.remove('MyClass');
-// if ( document.getElementById("MyElement").classList.contains('MyClass') )
-// document.getElementById("MyElement").classList.toggle('MyClass');
-
-// let btn = document.querySelector('.menu-btn');
-// let nav = document.querySelector('.menu-nav');
-
-// btn.addEventListener('click', function() {
-// 	btn.classList.toggle('menu-btn_active');
-//    nav.classList.toggle('menu-nav_active');
-// });
