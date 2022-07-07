@@ -10253,8 +10253,6 @@ readers do not read off random characters that represent icons */
   font-style: normal;
 }
 html {
-  font-family: "Inter-Regular";
-  font-style: 20px;
   color: #667085;
 }
 
@@ -10266,7 +10264,6 @@ a:hover {
 }
 
 h2, h1 {
-  font-family: "Oswald-Regular";
   font-size: 60px;
   font-weight: 400;
   font-size: 63px;
@@ -10274,26 +10271,18 @@ h2, h1 {
 }
 
 h3 {
-  font-family: "Oswald-Regular";
   font-size: 44px;
   font-weight: 400;
   line-height: 60px;
 }
 
 p {
-  font-family: "Inter-Regular";
   font-size: 18px;
   line-height: 28px;
 }
 
 span {
-  font-family: "Inter-Regular";
   font-size: 1em;
-}
-
-#logo {
-  width: 95px;
-  height: 20px;
 }
 
 img {
@@ -10308,37 +10297,23 @@ button {
   border-radius: 3px;
 }
 
-.content__button {
-  font-family: "Inter-Regular";
-  font-size: 1em;
-  color: #FFFFFF;
-  padding: 0em 1.5em 0em 1.5em;
-  overflow: auto;
-}
-.content__button:hover {
-  color: #dba4fc;
-}
-
-body {
-  min-width: 1440px;
-}
 body .navMenu {
   background-color: #FFFFFF;
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  min-height: 80px;
-  margin: 0px 2em 0px 2em;
+  min-height: 180px;
 }
 body .navMenu nav {
-  width: 450px;
+  width: 200px;
   padding: 0px 2em 0px 2em;
 }
 body .navMenu nav .navmenu__ul {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   justify-content: space-between;
   list-style: none;
 }
@@ -10358,7 +10333,7 @@ body section {
 body footer {
   display: flex;
   justify-content: center;
-  min-height: 296px;
+  min-height: 150px;
   margin: auto;
   width: 1440px;
 }
@@ -10367,7 +10342,6 @@ body footer {
   width: 1378px;
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
   background-color: #FFFFFF;
 }
 .wrapper__Blog .content {
@@ -10408,8 +10382,9 @@ body footer {
   max-width: 1378px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 0px;
+  align-items: center;
 }
 .wrapper__footer .copyright {
   display: flex;
