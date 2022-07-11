@@ -10297,14 +10297,19 @@ button {
   border-radius: 3px;
 }
 
+body {
+  background-color: ivory;
+}
 body .navMenu {
   background-color: #FFFFFF;
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   align-content: stretch;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 180px;
+  width: 1440px;
 }
 body .navMenu nav {
   width: 200px;
@@ -10326,7 +10331,6 @@ body header {
 body section {
   display: flex;
   justify-content: center;
-  min-height: 400px;
   margin: auto;
   width: 1440px;
 }
@@ -10339,7 +10343,7 @@ body footer {
 }
 
 .wrapper {
-  width: 1378px;
+  padding: 0px 1em 0px 1em;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -10376,14 +10380,16 @@ body footer {
   color: #dba4fc;
 }
 .wrapper__Contact {
+  width: 1440px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
-  margin-bottom: 150px;
+  align-items: center;
+  padding: 15em 0 10em 0;
 }
 .wrapper__footer {
-  max-width: 1378px;
+  width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
