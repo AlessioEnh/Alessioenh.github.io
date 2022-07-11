@@ -34,7 +34,6 @@ dd {
 }
 
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -10349,6 +10348,14 @@ body footer {
   flex-direction: column;
   background-color: #FFFFFF;
 }
+.wrapper__Blog {
+  min-height: 130vh;
+}
+@media screen and (max-width: 480px) {
+  .wrapper__Blog {
+    height: 295vh;
+  }
+}
 .wrapper__Blog .content {
   display: flex;
   flex-direction: column;
@@ -10405,6 +10412,14 @@ body footer {
 }
 
  @media (prefers-reduced-motion: reduce){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media screen and (max-width: 480px){
 
 @supports (-webkit-appearance:none){
 
