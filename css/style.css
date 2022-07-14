@@ -2072,11 +2072,7 @@ body {
 }
 body .navMenu {
   background-color: aquamarine;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  min-height: 4rem;
 }
 body .navMenu nav {
   width: 200px;
@@ -2105,8 +2101,6 @@ body footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 9.5rem;
-  background-color: aquamarine;
 }
 
 .wrapper {
@@ -2134,7 +2128,7 @@ body footer {
   max-width: 380px;
   display: flex;
   flex-direction: column;
-  padding-top: 80px;
+  padding: 8rem 0 10rem 0;
 }
 .wrapper__Blog .content__carts .content__cart .cart__img {
   overflow: hidden;
@@ -2154,6 +2148,15 @@ body footer {
   align-content: center;
   align-items: center;
   padding: 15em 0 10em 0;
+}
+.wrapper__footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 11.5rem;
+  background-color: aquamarine;
+  border-radius: 0.4rem;
 }
 .wrapper__footer .copyright {
   display: flex;
