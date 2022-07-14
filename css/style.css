@@ -2025,44 +2025,25 @@ html {
 }
 
 a {
+  font-size: 1.8rem;
   color: #667085;
 }
 a:hover {
   color: #7F56D9;
 }
 
-h2, h1 {
-  font-size: 46px;
-  font-weight: 400;
-  font-size: 63px;
-  line-height: 90px;
-}
-
 h3 {
-  font-size: 26px;
+  font-size: 2.4rem;
   font-weight: 400;
-  line-height: 60px;
-}
-
-p {
-  font-size: 18px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 span {
-  font-size: 1em;
+  font-size: 1.3rem;
 }
 
 img {
   width: 100%;
-}
-
-button {
-  width: 165px;
-  height: 25px;
-  background-color: #7F56D9;
-  border: 0px;
-  border-radius: 3px;
 }
 
 body {
@@ -2125,14 +2106,14 @@ body footer {
   flex-wrap: wrap;
 }
 .wrapper__Blog .content__carts .content__cart {
-  max-width: 380px;
+  max-width: 38rem;
   display: flex;
   flex-direction: column;
   padding: 8rem 0 10rem 0;
 }
 .wrapper__Blog .content__carts .content__cart .cart__img {
   overflow: hidden;
-  max-height: 770px;
+  max-height: 77rem;
 }
 .wrapper__Blog .content__carts .content__cart a {
   color: #7F56D9;
