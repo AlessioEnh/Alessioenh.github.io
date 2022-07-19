@@ -2082,6 +2082,7 @@ body footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: aquamarine;
 }
 
 .wrapper {
@@ -2132,7 +2133,6 @@ body footer {
 }
 .wrapper__footer {
   height: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 11.5rem;
