@@ -41,3 +41,11 @@ let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
 }
 		
 function cb() {}
+
+// Cart effekt
+
+document.getElementsByClassName(".content__cart").addEventListener("mouseOver", mouseoverCart());
+
+function mouseoverCart(){
+	
+}
