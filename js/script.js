@@ -42,6 +42,7 @@ let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
 		
 function cb() {}
 
+<<<<<<< HEAD
 // Cart effect
 
 let df = document.querySelector('.content__cart');
@@ -56,3 +57,12 @@ function mouseOverCart() {
 	document.body.style.backgroundColor = '#7f8fff';
 	// console.log('Произошло событие');
 }
+=======
+// Cart effekt
+
+document.getElementsByClassName(".content__cart").addEventListener("mouseOver", mouseoverCart());
+
+function mouseoverCart(){
+	
+}
+>>>>>>> 266bf86a92e1910c3df1abdabfea90ad8ee4a01f
