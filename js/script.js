@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 3ca12aa48aa0d4474058c3544a44c82008ddb074
 function testWebP(callback) {
 
 	var webP = new Image();
@@ -45,7 +41,6 @@ let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
 		
 function cb() {}
 
-<<<<<<< HEAD
 
 // ======Event Listener
 
@@ -55,31 +50,5 @@ let df = document.querySelector('.content__cart');
 df.addEventListener('mouseover', MouseOver);
 
 function MouseOver () {
-	console.log("Done!!");
+	console.log("Done!!!!!");
 }
-=======
-<<<<<<< HEAD
-// Cart effect
-
-let df = document.querySelector('.content__cart');
-
-console.log(df);
-
-// console.log(df.length);
-
-df.addEventListener('mouseover', mouseOverCart);
-
-function mouseOverCart() {
-	document.body.style.backgroundColor = '#7f8fff';
-	// console.log('Произошло событие');
-}
-=======
-// Cart effekt
-
-document.getElementsByClassName(".content__cart").addEventListener("mouseOver", mouseoverCart());
-
-function mouseoverCart(){
-	
-}
->>>>>>> 266bf86a92e1910c3df1abdabfea90ad8ee4a01f
->>>>>>> 3ca12aa48aa0d4474058c3544a44c82008ddb074
