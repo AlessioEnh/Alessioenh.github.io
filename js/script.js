@@ -42,13 +42,25 @@ let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
 function cb() {}
 
 
-// ======Event Listener
+// ======Event Listene
 
+let ado = document.querySelector('.content__cart');
+let ccha = document.querySelector('.content__cart-hidden')
 
-let df = document.querySelector('.content__cart');
+console.log('ado', ado)
+console.log('ccha', ccha)
 
-df.addEventListener('mouseover', MouseOver);
+ado.addEventListener('mouseover', addMouseOver);
+ado.addEventListener('mouseout', rmMouseOver);
 
-function MouseOver () {
-	console.log("Done!!!!!");
+function addMouseOver (event) {
+	ccha.classList.remove('content__cart-hidden')
+	ccha.classList.add('content__cart-active')
+	// console.log("Done!!!!!");
+}
+
+function rmMouseOver(event) {
+	ccha.classList.remove('content__cart-active')
+	ccha.classList.add('content__cart-hidden')
+	// console.log("rm Done!!!")
 }
