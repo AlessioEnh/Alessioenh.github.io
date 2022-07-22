@@ -2111,7 +2111,14 @@ body footer {
   display: flex;
   flex-direction: column;
   padding: 8rem 0 10rem 0;
+<<<<<<< HEAD
   z-index: 999;
+=======
+<<<<<<< HEAD
+  z-index: 999;
+=======
+>>>>>>> 266bf86a92e1910c3df1abdabfea90ad8ee4a01f
+>>>>>>> 3ca12aa48aa0d4474058c3544a44c82008ddb074
 }
 .wrapper__Blog .content__carts .content__cart .cart__img {
   overflow: hidden;
