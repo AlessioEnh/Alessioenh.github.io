@@ -50,5 +50,5 @@ let df = document.querySelector('.content__cart');
 df.addEventListener('mouseover', MouseOver);
 
 function MouseOver () {
-	console.log("Done!!")
+	console.log("Done!!");
 }
