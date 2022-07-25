@@ -56,7 +56,7 @@ ado.addEventListener('mouseover', addMouseOver);
 function addMouseOver (event) {
 
 	let s = event.target;
-	// console.log(event);
+	console.log(event);
 
 	if (s.ClassName != '.content__cart') return;
 
