@@ -45,7 +45,8 @@ function cb() {}
 // ======Event Listene
 
 let ado = document.querySelector('.content__carts');
-// let ccha = document.querySelector('.content__cart-hidden')
+let ccha = document.querySelector('.content__cart-hidden');
+
 
 // console.log('ado', ado);
 // console.log('ccha', ccha);
@@ -55,16 +56,39 @@ ado.addEventListener('mouseover', addMouseOver);
 
 function addMouseOver (event) {
 
-	let s = event.target;
-	console.log(event);
+	let s = event;
+	console.log(event.target.name)
 
-	if (s.ClassName != '.content__cart') return;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	if (event.target.name === 'cont_img') {
+		// console.log('Click!');
+
+		let ccha = document.querySelector('.content__cart-hidden');
+		console.log(ccha)
+		ccha.classList.remove('content__cart-hidden')
+		ccha.classList.add('content__cart-active')
+	}
 
 	// ccha.classList.remove('content__cart-hidden')
 	// ccha.classList.add('content__cart-active')
 
-	console.log("Done")
+	// console.log("Done")
 }
+
+
 
 // function rmMouseOver(event) {
 
