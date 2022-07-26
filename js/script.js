@@ -47,16 +47,29 @@ function cb() {}
 let ado = document.querySelector('.content__carts');
 let ccha = document.querySelector('.content__cart-hidden');
 
+<<<<<<< HEAD
 // console.log('ado', ado);
 // console.log('ccha', ccha);
 
 ado.addEventListener('click', addMouseOver);
+=======
+
+// console.log('ado', ado);
+// console.log('ccha', ccha);
+
+ado.addEventListener('mouseover', addMouseOver);
+>>>>>>> 275a48f74b1d1e11979f89ea7afeb7de4a27a24b
 // ado.addEventListener('mouseout', rmMouseOver);
 
 function addMouseOver (event) {
 
+<<<<<<< HEAD
 	// let s = event;
 // 	console.log(event.target.ClassName)
+=======
+	let s = event;
+	console.log(event.target.name)
+>>>>>>> 275a48f74b1d1e11979f89ea7afeb7de4a27a24b
 
 
 
@@ -79,7 +92,10 @@ function addMouseOver (event) {
 		console.log(ccha)
 		ccha.classList.remove('content__cart-hidden')
 		ccha.classList.add('content__cart-active')
+<<<<<<< HEAD
 		// ccha.classList.toggle('content__cart-active')
+=======
+>>>>>>> 275a48f74b1d1e11979f89ea7afeb7de4a27a24b
 	}
 
 	// ccha.classList.remove('content__cart-hidden')
