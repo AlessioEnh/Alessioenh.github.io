@@ -53,9 +53,9 @@ let ccha = document.querySelector('.content__cart-hidden');
 ado.addEventListener('click', addMouseOver);
 // ado.addEventListener('mouseout', rmMouseOver);
 
-// function addMouseOver (event) {
+function addMouseOver (event) {
 
-// 	let s = event;
+	// let s = event;
 // 	console.log(event.target.ClassName)
 
 
