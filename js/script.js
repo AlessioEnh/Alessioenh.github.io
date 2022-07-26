@@ -42,39 +42,17 @@ let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
 function cb() {}
 
 
-<<<<<<< HEAD
-
-=======
-// ======Event Listene
-
-let ado = document.querySelector('.content__carts');
-let ccha = document.querySelector('.content__cart-hidden');
-
-// console.log('ado', ado);
-// console.log('ccha', ccha);
-
-ado.addEventListener('click', addMouseOver);
-// ado.addEventListener('mouseout', rmMouseOver);
-
-function addMouseOver (event) {
-
-	// let s = event;
-	//	console.log(event.target.ClassName)
->>>>>>> 6fd6e9f7bd2d65f73db07dd0e3c52cac6a49b722
 
 
 
 
-<<<<<<< HEAD
+
 // ======Event Listene
 
 const ado = document.querySelectorAll('.content__cart');
-const ccha = document.querySelector('.content__cart-hidden');
 
 // console.log('ado', ado);
 // console.log('ccha', ccha);
-
-
 
 for(let ad of ado) {
 	ad.addEventListener('click', (e) => {
@@ -84,33 +62,6 @@ for(let ad of ado) {
 		console.log(e)
 		ad.classList.toggle('content__active');
 	})
-=======
-
-
-
-
-
-
-
-
-
-
-
-	if (event.target.name === 'cont_img') {
-		// console.log('Click!');
-
-		let ccha = document.querySelector('.content__cart-hidden');
-		console.log(ccha)
-		ccha.classList.remove('content__cart-hidden')
-		ccha.classList.add('content__cart-active')
-		// ccha.classList.toggle('content__cart-active')
-	}
-
-	// ccha.classList.remove('content__cart-hidden')
-	// ccha.classList.add('content__cart-active')
-
-	// console.log("Done")
->>>>>>> 6fd6e9f7bd2d65f73db07dd0e3c52cac6a49b722
 }
 
 
