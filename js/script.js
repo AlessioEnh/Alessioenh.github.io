@@ -47,6 +47,7 @@ function cb() {}
 
 
 
+<<<<<<< HEAD
 // ======Event Listener
 
 const ado = document.querySelectorAll('.content__cart');
@@ -81,3 +82,35 @@ function rmMouseOver(event) {
 		
 	df.classList.remove('active');
 }
+=======
+// ======Event Listene
+
+const ado = document.querySelectorAll('.content__cart');
+
+// console.log('ado', ado);
+// console.log('ccha', ccha);
+
+for(let ad of ado) {
+	ad.addEventListener('click', (e) => {
+		let df = e.target.childElementCount
+		console.log(df)
+		console.log(ad)
+		console.log(e)
+		ad.classList.toggle('content__active');
+	})
+}
+
+
+
+// function rmMouseOver(event) {
+
+// 	let s = event.target;
+// 	// console.log(event);
+
+// 	if (s.tagName != 'img') ;
+
+// 	// ccha.classList.remove('content__cart-active')
+// 	// ccha.classList.add('content__cart-hidden')
+// 	console.log("rm Done!!!");
+// }
+>>>>>>> ab32423687425a391cbe9220e48e4a00d6227471
