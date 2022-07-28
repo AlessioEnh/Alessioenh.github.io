@@ -56,7 +56,7 @@ const ado = document.querySelectorAll('.content__cart');
 
 
 for(let ad of ado) {
-	ad.addEventListener('mouseover', addMouseOver);
+	ad.addEventListener('mouseover', addMouseOver, once=true);
 }
 
 for(let rm of ado ){
@@ -67,17 +67,34 @@ for(let rm of ado ){
 
 
 function addMouseOver(event) {
-		let df = event.target.offsetParent.firstElementChild
+		// let df = event.target.offsetParent.firstElementChild
+		// console.log(df)
 
-		df.classList.toggle('content__cart-menu');
-		df.classList.add('active');
+		let fg = event.target.name
+
+		console.log(fg)
+		console.log(event)
+
+		if(fg == 'cont_img'){
+			// console.log("Done")
+			let df = event.target.offsetParent.firstElementChild;
+			df.classList.toggle('content__cart-menu');
+			df.classList.add('active');
+		};
+
 }
 
 
 
 function rmMouseOver(event) {
-		let df = event.target.offsetParent.firstElementChild
-		console.log(df)
+		// let df = event.target.offsetParent.firstElementChild
+		// console.log(df)
 
-	df.classList.remove('active');
+		let fg = event.target.name
+
+		if(fg == 'cont_img'){
+			// console.log("Done")
+			let df = event.target.offsetParent.firstElementChild;
+			df.classList.toggle('content__cart-menu');
+		};
 }
