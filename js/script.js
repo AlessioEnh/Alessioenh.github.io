@@ -104,7 +104,4 @@ function rmMouseOver(event) {
 			dh.classList.remove('active');
 		};
 
-		// df.classList.toggle('content__cart-menu');
-		// rn.classList.remove('active');
-
 }
