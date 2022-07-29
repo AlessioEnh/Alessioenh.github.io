@@ -84,7 +84,6 @@ ado.addEventListener("mouseover", function(e) {
 
 
 
-
 // for(let ad of ado){
 	// console.log(ad)
 
