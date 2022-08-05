@@ -1,16 +1,5 @@
 @charset "UTF-8";
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-=======
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-=======
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 * html {
   box-sizing: border-box;
 }
@@ -84,13 +73,6 @@ select {
   font: inherit;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 html {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -107,77 +89,6 @@ a:hover {
 
 span {
   font-size: 1.4rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-@font-face {
-  font-family: "fa-brands-400";
-  font-display: swap;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "fa-v4compatibility";
-  font-display: swap;
-  src: url("../fonts/fa-v4compatibility.woff") format("woff"), url("../fonts/fa-v4compatibility.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "fa-solid-900";
-  font-display: swap;
-  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "fa-regular-400";
-  font-display: swap;
-  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Inter-Regular";
-  font-display: swap;
-  src: url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Oswald-Regular";
-  font-display: swap;
-  src: url("../fonts/Oswald-Regular.woff") format("woff"), url("../fonts/Oswald-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-html {
-  font-size: 10px;
-  color: #667085;
-}
-
-a {
-  font-size: 1.8rem;
-  color: #667085;
-}
-a:hover {
-  color: #7F56D9;
-}
-
-h3 {
-  font-size: 2.4rem;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-span {
-  font-size: 1.3rem;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 
 img {
@@ -188,28 +99,10 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   height: 100vh;
   color: #101828;
 }
 body .navMenu {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-}
-body .navMenu {
-  background-color: aquamarine;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   align-items: center;
 }
 body .navMenu nav {
@@ -223,13 +116,6 @@ body .navMenu nav .navmenu__ul {
   justify-content: space-between;
   list-style: none;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 body .navMenu nav .navmenu__ul a {
   font-size: 1.6rem;
 }
@@ -244,133 +130,51 @@ body .navMenu nav .navmenu__ul li {
 body .navMenu nav .navmenu__ul li:hover {
   border-bottom: aquamarine 3px solid;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 body header {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 14rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   box-shadow: 1px 0 8px 2px rgba(0, 0, 0, 0.5);
   z-index: 2;
   border-bottom: aquamarine 5px solid;
   background-color: #fbfbfb;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-  background-color: aquamarine;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 body section {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-<<<<<<< HEAD
   background-color: #fbfbfb;
-=======
-<<<<<<< HEAD
-  background-color: #fbfbfb;
-=======
-<<<<<<< HEAD
-  background-color: #fbfbfb;
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 body footer {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   box-shadow: 1px 0 20px 1px rgba(0, 0, 0, 0.5);
   z-index: 2;
   border-top: aquamarine 5px solid;
   background-color: #181818;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-  background-color: aquamarine;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 
 .wrapper {
   width: clamp(960px, 90vw, 1440px);
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   background-color: #fbfbfb;
 }
 @media screen and (max-width: 480px) {
   .wrapper {
     width: clamp(32rem, 100vw, 48rem);
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-  background-color: #FFFFFF;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 .wrapper__Blog {
   padding: 0 clamp(1.375rem, 1.2rem + 0.89vw, 2rem);
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 @media screen and (max-width: 480px) {
   .wrapper__Blog {
     padding: 0;
   }
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 .wrapper__Blog .content {
   display: flex;
   flex-direction: column;
@@ -394,13 +198,6 @@ body footer {
   width: 38rem;
   height: 65rem;
   background-size: cover;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
@@ -409,14 +206,6 @@ body footer {
     width: 90vw;
     height: 90vh;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu {
   z-index: 4;
@@ -431,18 +220,7 @@ body footer {
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover {
   opacity: 0.9;
   color: white;
-<<<<<<< HEAD
   border-radius: 8px;
-=======
-<<<<<<< HEAD
-  border-radius: 8px;
-=======
-<<<<<<< HEAD
-  border-radius: 8px;
-=======
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
   transition: 0.2s;
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover .wrap_cart-menu {
@@ -500,32 +278,12 @@ body footer {
   justify-content: center;
   align-items: center;
   min-height: 11.5rem;
-<<<<<<< HEAD
   background-color: #181818;
-=======
-<<<<<<< HEAD
-  background-color: #181818;
-=======
-<<<<<<< HEAD
-  background-color: #181818;
-=======
-  background-color: aquamarine;
-  border-radius: 0.4rem;
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 }
 .wrapper__footer .copyright {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
 .wrapper__footer .copyright span {
   color: #FFFFFF;
 }
@@ -543,14 +301,3 @@ body footer {
 }
 
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-@supports (-webkit-appearance:none){
-
-}
->>>>>>> c28cafa2cdd9b53ab0d91265814a729230ebed61
->>>>>>> f4d77c22bc5fd864059bccfeda474043be049598
->>>>>>> b9627812e9d512314dbbf0506cc37dda499b73a8
