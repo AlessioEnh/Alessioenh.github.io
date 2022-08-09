@@ -102,64 +102,21 @@ body {
   height: 100vh;
   color: #101828;
 }
-<<<<<<< HEAD
-=======
-body .navMenu {
-  align-items: center;
-}
-body .navMenu nav {
-  width: 200px;
-  padding: 0px 2em 0px 2em;
-}
-body .navMenu nav .navmenu__ul {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  list-style: none;
-}
-body .navMenu nav .navmenu__ul a {
-  font-size: 1.6rem;
-}
-body .navMenu nav .navmenu__ul a:hover {
-  color: #101828;
-}
-body .navMenu nav .navmenu__ul li {
-  height: 3rem;
-  box-sizing: border-box;
-  transition: 0.2s;
-}
-body .navMenu nav .navmenu__ul li:hover {
-  border-bottom: aquamarine 3px solid;
-}
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 body header {
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   min-height: 11rem;
   box-shadow: 1px 0 8px 2px rgba(0, 0, 0, 0.5);
   z-index: 2;
   border-bottom: #05ff18 7px solid;
   background-color: #383636;
-=======
-  min-height: 14rem;
-  box-shadow: 1px 0 8px 2px rgba(0, 0, 0, 0.5);
-  z-index: 2;
-  border-bottom: aquamarine 5px solid;
-  background-color: #fbfbfb;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 body section {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-<<<<<<< HEAD
   background-color: #fafafa;
-=======
-  background-color: #fbfbfb;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 body footer {
   display: flex;
@@ -167,30 +124,20 @@ body footer {
   justify-content: center;
   box-shadow: 1px 0 20px 1px rgba(0, 0, 0, 0.5);
   z-index: 2;
-<<<<<<< HEAD
   border-top: #05ff18 7px solid;
   background-color: #383636;
-=======
-  border-top: aquamarine 5px solid;
-  background-color: #181818;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 
 .wrapper {
   width: clamp(960px, 90vw, 1440px);
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-=======
-  background-color: #fbfbfb;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 @media screen and (max-width: 480px) {
   .wrapper {
     width: clamp(32rem, 100vw, 48rem);
   }
 }
-<<<<<<< HEAD
 .wrapper__header {
   display: flex;
   flex-direction: row;
@@ -233,8 +180,6 @@ body footer {
 .wrapper__header .header__descr span a:hover {
   color: #05ff18;
 }
-=======
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 .wrapper__Blog {
   padding: 0 clamp(1.375rem, 1.2rem + 0.89vw, 2rem);
 }
@@ -266,10 +211,6 @@ body footer {
   width: 38rem;
   height: 65rem;
   background-size: cover;
-<<<<<<< HEAD
-=======
-  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.5);
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
   border-radius: 8px;
 }
 @media screen and (max-width: 480px) {
@@ -290,11 +231,7 @@ body footer {
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover {
   opacity: 0.9;
-<<<<<<< HEAD
   color: #FFFFFF;
-=======
-  color: white;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
   border-radius: 8px;
   transition: 0.2s;
 }
@@ -313,11 +250,7 @@ body footer {
   margin: 0;
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover ol li {
-<<<<<<< HEAD
   color: #FFFFFF;
-=======
-  color: white;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
   padding: 0 0 3rem 0;
   display: flex;
   align-items: center;
@@ -332,21 +265,13 @@ body footer {
   display: inline-block;
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover a {
-<<<<<<< HEAD
   color: #fafafa;
-=======
-  color: #FFFFFF;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
   margin-top: 3.5rem;
   display: inline-block;
   line-height: 5rem;
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover a:hover {
-<<<<<<< HEAD
   color: #05ff18;
-=======
-  color: aqua;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 .wrapper__Blog .content__carts .content__cart .cart-menu:hover a span {
   font-size: 3.2rem;
@@ -365,11 +290,7 @@ body footer {
   justify-content: center;
   align-items: center;
   min-height: 11.5rem;
-<<<<<<< HEAD
   background-color: #383636;
-=======
-  background-color: #181818;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 .wrapper__footer .copyright {
   display: flex;
@@ -379,11 +300,7 @@ body footer {
   color: #FFFFFF;
 }
 .wrapper__footer .copyright a {
-<<<<<<< HEAD
   color: #fafafa;
-=======
-  color: #fbfbfb;
->>>>>>> 6c0d1d57fcf7e336a2494ab20c86abc440ed4d68
 }
 @supports (-webkit-appearance:none){
 
